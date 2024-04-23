@@ -1,0 +1,2 @@
+""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
+"1"	0.978628191163234	0.97538750819239	0.972031428572204	0.978156009325211	0.970577389724245	0.976570454775607	0.973568601545868
