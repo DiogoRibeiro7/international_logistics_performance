@@ -1,14 +1,2 @@
 ""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
 "1"	0.983091812582856	0.979374318538493	0.9786452977843	0.980525934086939	0.977730235965407	0.983379599495267	0.978839478387916
-""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.983091812582856	0.979374318538493	0.9786452977843	0.980525934086939	0.977730235965407	0.983379599495267	0.978839478387916
-""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.983091812582856	0.979374318538493	0.9786452977843	0.980525934086939	0.977730235965407	0.983379599495267	0.978839478387916
-""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.983091812582856	0.979374318538493	0.9786452977843	0.980525934086939	0.977730235965407	0.983379599495267	0.978839478387916
-""	"Full"	"LPI.Score"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.987909021152881	0.983091812582856	0.986079728877131	0.985745417505624	0.986797176791776	0.985088315087517	0.988715032811328	0.985848455318305
-""	"Full"	"LPI.Score"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.987909021152881	0.983091812582856	0.986079728877131	0.985745417505624	0.986797176791776	0.985088315087517	0.988715032811328	0.985848455318305
-""	"Full"	"LPI.Score"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.987909021152881	0.983091812582856	0.986079728877131	0.985745417505624	0.986797176791776	0.985088315087517	0.988715032811328	0.985848455318305
