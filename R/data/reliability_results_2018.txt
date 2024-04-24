@@ -2,3 +2,7 @@
 "1"	0.982231887969649	0.978712784585706	0.97781554470207	0.982841741458742	0.97568727764704	0.97934768712755	0.977700486136679
 ""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
 "1"	0.982231887969649	0.978712784585706	0.97781554470207	0.982841741458742	0.97568727764704	0.97934768712755	0.977700486136679
+""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
+"1"	0.982231887969649	0.978712784585706	0.97781554470207	0.982841741458742	0.97568727764704	0.97934768712755	0.977700486136679
+""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
+"1"	0.982231887969649	0.978712784585706	0.97781554470207	0.982841741458742	0.97568727764704	0.97934768712755	0.977700486136679
