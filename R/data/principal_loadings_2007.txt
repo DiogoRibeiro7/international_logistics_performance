@@ -1,0 +1,14 @@
+
+Loadings:
+                                       Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
+Customs Score                           0.410  0.259  0.594  0.161         0.621
+Infrastructure Score                    0.413  0.285  0.391        -0.195 -0.745
+International Shipments Score           0.407  0.255 -0.583  0.611 -0.235       
+Logistics Competence and Quality Score  0.414  0.115 -0.239 -0.226  0.839       
+Timeliness Score                        0.396 -0.876  0.125  0.232              
+Tracking and Tracing Score              0.411        -0.286 -0.702 -0.449  0.225
+
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
+SS loadings     1.000  1.000  1.000  1.000  1.000  1.000
+Proportion Var  0.167  0.167  0.167  0.167  0.167  0.167
+Cumulative Var  0.167  0.333  0.500  0.667  0.833  1.000

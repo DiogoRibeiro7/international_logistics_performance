@@ -2,7 +2,7 @@
 Factor analysis with Call: principal(r = mydata, nfactors = 1, rotate = "varimax")
 
 Test of the hypothesis that 1 factor is sufficient.
-The degrees of freedom for the model is 14  and the objective function was  1.56 
-The number of observations was  139  with Chi Square =  209.85  with prob <  5.3e-37 
+The degrees of freedom for the model is 9  and the objective function was  0.44 
+The number of observations was  139  with Chi Square =  58.62  with prob <  2.5e-09 
 
-The root mean square of the residuals (RMSA) is  0.02 
+The root mean square of the residuals (RMSA) is  0.03 

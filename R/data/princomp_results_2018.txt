@@ -1,5 +1,9 @@
 Importance of components:
-                          Comp.1     Comp.2     Comp.3     Comp.4      Comp.5      Comp.6       Comp.7
-Standard deviation     2.5564321 0.41442770 0.32691957 0.27867213 0.263996437 0.196661443 5.317753e-07
-Proportion of Variance 0.9336208 0.02453576 0.01526806 0.01109402 0.009956303 0.005525103 4.039785e-14
-Cumulative Proportion  0.9336208 0.95815651 0.97342457 0.98451859 0.994474897 1.000000000 1.000000e+00
+                          Comp.1     Comp.2     Comp.3     Comp.4     Comp.5
+Standard deviation     2.3527315 0.41442770 0.32691957 0.27867213 0.26399644
+Proportion of Variance 0.9225575 0.02862505 0.01781273 0.01294303 0.01161569
+Cumulative Proportion  0.9225575 0.95118260 0.96899533 0.98193836 0.99355405
+                            Comp.6
+Standard deviation     0.196661443
+Proportion of Variance 0.006445954
+Cumulative Proportion  1.000000000
