@@ -1,0 +1,7 @@
+                                          Comp.1
+Logistics Competence and Quality Score 0.4166372
+Infrastructure Score                   0.4129868
+Tracking and Tracing Score             0.4106313
+Customs Score                          0.4072126
+Timeliness Score                       0.4056230
+International Shipments Score          0.3960873
