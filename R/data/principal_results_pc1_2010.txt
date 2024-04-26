@@ -1,22 +1,14 @@
-Principal Components Analysis
-Call: principal(r = mydata, nfactors = 1, rotate = "varimax")
-Standardized loadings (pattern matrix) based upon correlation matrix
-                                        PC1   h2    u2 com
-Customs Score                          0.96 0.92 0.078   1
-Infrastructure Score                   0.97 0.94 0.064   1
-International Shipments Score          0.86 0.74 0.263   1
-Logistics Competence and Quality Score 0.97 0.95 0.054   1
-Timeliness Score                       0.91 0.82 0.177   1
-Tracking and Tracing Score             0.95 0.90 0.095   1
 
-                PC1
-SS loadings    5.27
-Proportion Var 0.88
+Loadings:
+                                       PC1  
+Customs Score                          0.960
+Infrastructure Score                   0.968
+International Shipments Score          0.858
+Logistics Competence and Quality Score 0.973
+Timeliness Score                       0.907
+Tracking and Tracing Score             0.951
 
-Mean item complexity =  1
-Test of the hypothesis that 1 component is sufficient.
-
-The root mean square of the residuals (RMSR) is  0.03 
- with the empirical chi square  5.23  with prob <  0.81 
-
-Fit based upon off diagonal values = 1
+                 PC1
+SS loadings    5.270
+Proportion Var 0.878
+[1] 4

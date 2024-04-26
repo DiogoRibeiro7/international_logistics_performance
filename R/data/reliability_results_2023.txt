@@ -1,6 +1,2 @@
 ""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
 "1"	0.978051580925389	0.972349831408166	0.972706752701843	0.979247958526369	0.970327769486943	0.975683285889296	0.97156797827888
-""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.978051580925389	0.972349831408166	0.972706752701843	0.979247958526369	0.970327769486943	0.975683285889296	0.97156797827888
-""	"Full"	"Customs.Score"	"Infrastructure.Score"	"International.Shipments.Score"	"Logistics.Competence.and.Quality.Score"	"Timeliness.Score"	"Tracking.and.Tracing.Score"
-"1"	0.978051580925389	0.972349831408166	0.972706752701843	0.979247958526369	0.970327769486943	0.975683285889296	0.97156797827888
