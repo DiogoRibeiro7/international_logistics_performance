@@ -24,6 +24,12 @@ dados <- read_excel("Combined_Data.xlsx")
 print(colnames(dados))
 str(dados)
 
+# Exclude non-score columns
+columns_to_remove <- c("LPI Grouped Rank", "Customs Grouped Rank", "Infrastructure Grouped Rank","International Shipments Grouped Rank", "Logistics Competence and Quality Grouped Rank","Timeliness Grouped Rank", "Tracking and Tracing Grouped Rank")
+# Safely exclude non-score columns
+columns_to_keep <- setdiff(names(dados), columns_to_remove)
+dados <- dados[, columns_to_keep, drop = FALSE]
+
 calculate_reliability <- function(data) {
   # Calculate Cronbach's Alpha for the full set of items
   full_alpha <- cronbach.alpha(data)
@@ -348,7 +354,5 @@ final_dataframe <- bind_rows(data_frames, .id = "Year") %>%
 # Print or inspect the final dataframe
 print(final_dataframe)
 
-print(final_dataframe)
-##### next is o refactor to modules
 
 

@@ -1,21 +1,14 @@
 
 Loadings:
-                                              PC1   
-LPI Grouped Rank                               0.992
-Customs Score                                 -0.934
-Customs Grouped Rank                           0.922
-Infrastructure Score                          -0.962
-Infrastructure Grouped Rank                    0.958
-International Shipments Score                 -0.937
-International Shipments Grouped Rank           0.934
-Logistics Competence and Quality Score        -0.973
-Logistics Competence and Quality Grouped Rank  0.964
-Timeliness Score                              -0.931
-Timeliness Grouped Rank                        0.915
-Tracking and Tracing Score                    -0.956
-Tracking and Tracing Grouped Rank              0.950
+                                       PC1  
+Customs Score                          0.943
+Infrastructure Score                   0.973
+International Shipments Score          0.931
+Logistics Competence and Quality Score 0.978
+Timeliness Score                       0.935
+Tracking and Tracing Score             0.957
 
-                PC1
-SS loadings    11.7
-Proportion Var  0.9
+                 PC1
+SS loadings    5.450
+Proportion Var 0.908
 [1] 4

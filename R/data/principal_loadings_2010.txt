@@ -1,35 +1,14 @@
 
 Loadings:
-                                              Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9
-LPI Grouped Rank                               0.294                       0.112  0.366         0.113       
-Customs Score                                 -0.283         0.233 -0.231  0.514  0.251  0.111 -0.124 -0.416
-Customs Grouped Rank                           0.278 -0.116 -0.253  0.266 -0.478  0.497 -0.118 -0.126 -0.330
-Infrastructure Score                          -0.286         0.234 -0.204 -0.110  0.424 -0.371 -0.216       
-Infrastructure Grouped Rank                    0.283        -0.176  0.292  0.401  0.135  0.544 -0.260       
-International Shipments Score                 -0.256 -0.610 -0.203                0.118         0.436 -0.377
-International Shipments Grouped Rank           0.254  0.636  0.158                              0.423 -0.397
-Logistics Competence and Quality Score        -0.288         0.172        -0.203  0.409  0.449 -0.107  0.379
-Logistics Competence and Quality Grouped Rank  0.285        -0.128         0.492  0.201 -0.537 -0.109  0.270
-Timeliness Score                              -0.271  0.282 -0.560         0.105  0.150         0.440  0.254
-Timeliness Grouped Rank                        0.268 -0.308  0.578                              0.451  0.195
-Tracking and Tracing Score                    -0.282         0.129  0.542  0.140  0.215 -0.108  0.191  0.196
-Tracking and Tracing Grouped Rank              0.275        -0.133 -0.666         0.245  0.178  0.125  0.199
-                                              Comp.10 Comp.11 Comp.12 Comp.13
-LPI Grouped Rank                                       0.731   0.411   0.182 
-Customs Score                                 -0.392           0.114  -0.331 
-Customs Grouped Rank                          -0.293  -0.125          -0.242 
-Infrastructure Score                           0.104          -0.392   0.518 
-Infrastructure Grouped Rank                                   -0.375   0.318 
-International Shipments Score                  0.336  -0.106   0.138   0.133 
-International Shipments Grouped Rank           0.302  -0.248                 
-Logistics Competence and Quality Score         0.145  -0.362   0.401         
-Logistics Competence and Quality Grouped Rank  0.121  -0.413   0.228         
-Timeliness Score                              -0.439                   0.200 
-Timeliness Grouped Rank                       -0.424  -0.167  -0.163   0.123 
-Tracking and Tracing Score                     0.288   0.189  -0.354  -0.462 
-Tracking and Tracing Grouped Rank              0.216          -0.362  -0.368 
+                                       Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
+Customs Score                           0.418  0.159  0.298  0.415  0.690  0.250
+Infrastructure Score                    0.422  0.126  0.348  0.269 -0.341 -0.704
+International Shipments Score           0.374 -0.910 -0.151                     
+Logistics Competence and Quality Score  0.424  0.161  0.220        -0.575  0.640
+Timeliness Score                        0.395  0.318 -0.845  0.157              
+Tracking and Tracing Score              0.414               -0.847  0.275 -0.166
 
-               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9 Comp.10 Comp.11 Comp.12 Comp.13
-SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   1.000   1.000   1.000   1.000
-Proportion Var  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077   0.077   0.077   0.077   0.077
-Cumulative Var  0.077  0.154  0.231  0.308  0.385  0.462  0.538  0.615  0.692   0.769   0.846   0.923   1.000
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
+SS loadings     1.000  1.000  1.000  1.000  1.000  1.000
+Proportion Var  0.167  0.167  0.167  0.167  0.167  0.167
+Cumulative Var  0.167  0.333  0.500  0.667  0.833  1.000
