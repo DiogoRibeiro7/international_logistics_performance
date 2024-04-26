@@ -29,3 +29,20 @@ print(combined_data)
 
 # Optional: Write the combined data to a new Excel file
 write.xlsx(combined_data, "Combined_Data.xlsx")
+
+data <- combined_data
+# First, ensure the country name column is clean and consistent
+data <- data %>%
+  mutate(country = tolower(Economy))
+
+# Then fill in missing codes
+data <- data %>%
+  group_by(country) %>%
+  mutate(code = ifelse(is.na(Code), lag(Code, order_by = Year), code)) %>%
+  ungroup()
+
+# Check the structure and filled values
+head(data)
+
+# Optionally, save the updated dataset
+write.xlsx(data, "combined_data_updated.xlsx")
