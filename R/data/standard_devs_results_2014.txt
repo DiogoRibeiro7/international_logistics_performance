@@ -1,6 +1,6 @@
                          Customs Score                   Infrastructure Score 
-                             0.5950293                              0.6623047 
+                                 0.595                                  0.662 
          International Shipments Score Logistics Competence and Quality Score 
-                             0.4918141                              0.5833720 
+                                 0.492                                  0.583 
                       Timeliness Score             Tracking and Tracing Score 
-                             0.5870714                              0.5818664 
+                                 0.587                                  0.582 
