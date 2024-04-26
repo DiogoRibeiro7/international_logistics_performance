@@ -12,6 +12,7 @@ library(reticulate)
 library(car)
 library(cluster)
 library(psych)
+library(readr)
 
 # Set the number of digits to display (setting to 6 or more is usually sufficient to ensure at least 4 decimal places)
 options(digits=3)
@@ -190,10 +191,11 @@ process_data_for_year <- function(data, year) {
   # Homoscedasticity checks
   variances <- sapply(mydata, var, na.rm = TRUE)
   standard_devs <- sapply(mydata, sd, na.rm = TRUE)
-  # Save Bartlett test results to a file
+
   standard_devs_output_path <- paste("data/standard_devs_results_", year, ".txt", sep="")
   writeLines(capture.output(standard_devs), standard_devs_output_path)
 
+  # Save Bartlett test results to a file
   bartlett_results <- bartlett.test(mydata)
   print(bartlett_results)
 
@@ -263,19 +265,19 @@ process_data_for_year <- function(data, year) {
 
   # Assuming fit2 is already your PCA result object
   loadings_matrix <- loadings(fit2)  # Get loadings matrix
-  
+
   # Convert matrix to data frame for better handling
   loadings_df <- as.data.frame(loadings_matrix)
-  
+
   # Optional: Format the dataframe to ensure all numerical values have four decimal places
   loadings_df[] <- lapply(loadings_df, function(x) if(is.numeric(x)) round(x, 4) else x)
-  
+
   # Rename the columns to include the year. Assuming that your PCA loadings typically include multiple PCs:
   colnames(loadings_df) <- paste(colnames(loadings_df), year, sep="_")
-  
+
   # Define the path for saving the CSV file
   principal_pc1_output_path <- paste("data/principal_results_pc1_", year, ".csv", sep="")
-  
+
   # Save the DataFrame to a CSV file with row names
   write.csv(loadings_df, principal_pc1_output_path, row.names = TRUE)
 
@@ -301,6 +303,7 @@ process_data_for_year <- function(data, year) {
   print(reliability_results)
 }
 
+
 # Extract unique years from the data
 unique_years <- unique(dados$Year)
 
@@ -308,3 +311,39 @@ unique_years <- unique(dados$Year)
 results <- lapply(unique_years, function(year) {
   process_data_for_year(dados, year)
 })
+
+base_path <- "data/"
+years <- unique(dados$Year)
+
+# Define score names to be used as row names
+score_names <- c("Customs Score", "Infrastructure Score", "International Shipments Score",
+                 "Logistics Competence and Quality Score", "Timeliness Score", "Tracking and Tracing Score")
+
+
+# Initialize an empty list to store data frames for each year
+data_frames <- list()
+
+# Loop over each year, read the CSV file, and prepare the DataFrame
+for (year in years) {
+  # Construct file path
+  file_path <- paste(base_path, "principal_results_pc1_", year, ".csv", sep = "")
+
+  # Read the CSV file
+  df <- read_csv(file_path, col_types = cols(.default = "c"))
+
+  # Remove the first unnamed column which is just the row index from the CSV
+  df <- df[-1]
+
+  # Add the scores as a new column at the start of the dataframe
+  df <- tibble(Score = score_names, Value = as.numeric(df[[1]]))
+
+  # Store the dataframe with a named list
+  data_frames[[as.character(year)]] <- df
+}
+
+# Combine all DataFrames into a single DataFrame by 'Score' column
+final_dataframe <- bind_rows(data_frames, .id = "Year") %>%
+  pivot_wider(names_from = Year, values_from = Value)
+
+# Print or inspect the final dataframe
+print(final_dataframe)
