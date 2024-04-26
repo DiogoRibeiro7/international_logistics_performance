@@ -261,6 +261,24 @@ process_data_for_year <- function(data, year) {
   principal_pc1_output_path <- paste("data/principal_results_pc1_", year, ".txt", sep="")
   writeLines(capture.output(fit2$loadings, decimal=4), principal_pc1_output_path)
 
+  # Assuming fit2 is already your PCA result object
+  loadings_matrix <- loadings(fit2)  # Get loadings matrix
+  
+  # Convert matrix to data frame for better handling
+  loadings_df <- as.data.frame(loadings_matrix)
+  
+  # Optional: Format the dataframe to ensure all numerical values have four decimal places
+  loadings_df[] <- lapply(loadings_df, function(x) if(is.numeric(x)) round(x, 4) else x)
+  
+  # Rename the columns to include the year. Assuming that your PCA loadings typically include multiple PCs:
+  colnames(loadings_df) <- paste(colnames(loadings_df), year, sep="_")
+  
+  # Define the path for saving the CSV file
+  principal_pc1_output_path <- paste("data/principal_results_pc1_", year, ".csv", sep="")
+  
+  # Save the DataFrame to a CSV file with row names
+  write.csv(loadings_df, principal_pc1_output_path, row.names = TRUE)
+
 
   # Assuming mydata is already loaded and prepared
   # Define the columns of interest for the reliability analysis
