@@ -1,10 +1,18 @@
 Kaiser-Meyer-Olkin factor adequacy
 Call: KMO(r = mydata)
-Overall MSA =  0.92
+Overall MSA =  0.88
 MSA for each item = 
-                         Customs Score                   Infrastructure Score 
-                                  0.89                                   0.91 
-         International Shipments Score Logistics Competence and Quality Score 
-                                  0.97                                   0.91 
-                      Timeliness Score             Tracking and Tracing Score 
-                                  0.94                                   0.93 
+                             LPI Grouped Rank                                 Customs Score 
+                                         0.91                                          0.86 
+                         Customs Grouped Rank                          Infrastructure Score 
+                                         0.88                                          0.87 
+                  Infrastructure Grouped Rank                 International Shipments Score 
+                                         0.88                                          0.90 
+         International Shipments Grouped Rank        Logistics Competence and Quality Score 
+                                         0.90                                          0.87 
+Logistics Competence and Quality Grouped Rank                              Timeliness Score 
+                                         0.87                                          0.89 
+                      Timeliness Grouped Rank                    Tracking and Tracing Score 
+                                         0.87                                          0.87 
+            Tracking and Tracing Grouped Rank 
+                                         0.88 

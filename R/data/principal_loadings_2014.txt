@@ -1,14 +1,35 @@
 
 Loadings:
-                                       Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
-Customs Score                           0.404  0.662  0.149  0.253  0.261  0.494
-Infrastructure Score                    0.417  0.239  0.200        -0.783 -0.336
-International Shipments Score           0.399        -0.916                     
-Logistics Competence and Quality Score  0.419         0.195         0.563 -0.681
-Timeliness Score                        0.401 -0.664  0.178  0.564         0.220
-Tracking and Tracing Score              0.410 -0.250  0.169 -0.780         0.362
+                                              Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9
+LPI Grouped Rank                               0.290                                     0.333  0.213       
+Customs Score                                 -0.273  0.421  0.232  0.228 -0.178  0.279  0.254 -0.504  0.353
+Customs Grouped Rank                           0.269 -0.480 -0.157 -0.162  0.357 -0.226  0.362 -0.450  0.292
+Infrastructure Score                          -0.281  0.139  0.195  0.114  0.570         0.320        -0.316
+Infrastructure Grouped Rank                    0.280 -0.147               -0.619  0.197  0.450        -0.241
+International Shipments Score                 -0.274        -0.617                       0.205  0.253  0.186
+International Shipments Grouped Rank           0.273         0.640                              0.221  0.200
+Logistics Competence and Quality Score        -0.284         0.190        -0.152 -0.428  0.443              
+Logistics Competence and Quality Grouped Rank  0.282        -0.121  0.148  0.302  0.654                     
+Timeliness Score                              -0.272 -0.443         0.416         0.149  0.115  0.425  0.419
+Timeliness Grouped Rank                        0.268  0.526        -0.382                0.226  0.341  0.377
+Tracking and Tracing Score                    -0.280 -0.162  0.136 -0.487         0.326  0.232  0.217 -0.342
+Tracking and Tracing Grouped Rank              0.278  0.189         0.569        -0.277  0.157  0.152 -0.348
+                                              Comp.10 Comp.11 Comp.12 Comp.13
+LPI Grouped Rank                               0.127           0.393   0.754 
+Customs Score                                          0.198  -0.165   0.145 
+Customs Grouped Rank                                   0.114  -0.186         
+Infrastructure Score                          -0.139  -0.547                 
+Infrastructure Grouped Rank                   -0.118  -0.402          -0.151 
+International Shipments Score                 -0.607   0.100   0.125         
+International Shipments Grouped Rank          -0.622                  -0.137 
+Logistics Competence and Quality Score         0.215   0.285   0.457  -0.368 
+Logistics Competence and Quality Grouped Rank  0.152   0.224   0.303  -0.438 
+Timeliness Score                               0.269  -0.174  -0.231         
+Timeliness Grouped Rank                        0.221  -0.187  -0.261  -0.160 
+Tracking and Tracing Score                             0.388  -0.388   0.116 
+Tracking and Tracing Grouped Rank                      0.341  -0.433         
 
-               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6
-SS loadings     1.000  1.000  1.000  1.000  1.000  1.000
-Proportion Var  0.167  0.167  0.167  0.167  0.167  0.167
-Cumulative Var  0.167  0.333  0.500  0.667  0.833  1.000
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9 Comp.10 Comp.11 Comp.12 Comp.13
+SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   1.000   1.000   1.000   1.000
+Proportion Var  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077   0.077   0.077   0.077   0.077
+Cumulative Var  0.077  0.154  0.231  0.308  0.385  0.462  0.538  0.615  0.692   0.769   0.846   0.923   1.000

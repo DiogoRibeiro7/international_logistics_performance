@@ -165,7 +165,7 @@ process_data_for_year <- function(data, year) {
 
 
   # Exclude non-score columns
-  columns_to_remove <- c("Year", "Economy", "LPI Score")
+  columns_to_remove <- c("Year", "Economy", "LPI Score", "Code")
   # Safely exclude non-score columns
   columns_to_keep <- setdiff(names(year_data), columns_to_remove)
   dados_ACP <- year_data[, columns_to_keep, drop = FALSE]
@@ -347,3 +347,8 @@ final_dataframe <- bind_rows(data_frames, .id = "Year") %>%
 
 # Print or inspect the final dataframe
 print(final_dataframe)
+
+print(final_dataframe)
+##### next is o refactor to modules
+
+

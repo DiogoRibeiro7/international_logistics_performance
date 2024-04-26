@@ -1,6 +1,14 @@
-                         Customs Score                   Infrastructure Score 
-                                 0.577                                  0.670 
-         International Shipments Score Logistics Competence and Quality Score 
-                                 0.512                                  0.591 
-                      Timeliness Score             Tracking and Tracing Score 
-                                 0.555                                  0.614 
+                             LPI Grouped Rank                                 Customs Score 
+                                       44.889                                         0.577 
+                         Customs Grouped Rank                          Infrastructure Score 
+                                       44.889                                         0.670 
+                  Infrastructure Grouped Rank                 International Shipments Score 
+                                       44.889                                         0.512 
+         International Shipments Grouped Rank        Logistics Competence and Quality Score 
+                                       44.889                                         0.591 
+Logistics Competence and Quality Grouped Rank                              Timeliness Score 
+                                       44.889                                         0.555 
+                      Timeliness Grouped Rank                    Tracking and Tracing Score 
+                                       44.889                                         0.614 
+            Tracking and Tracing Grouped Rank 
+                                       44.889 

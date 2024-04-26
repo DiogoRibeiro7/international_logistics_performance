@@ -1,7 +1,14 @@
-                                       Comp.1
-Logistics Competence and Quality Score  0.417
-Infrastructure Score                    0.413
-Tracking and Tracing Score              0.411
-Customs Score                           0.407
-Timeliness Score                        0.406
-International Shipments Score           0.396
+                                              Comp.1
+LPI Grouped Rank                               0.288
+Logistics Competence and Quality Grouped Rank  0.280
+Infrastructure Grouped Rank                    0.277
+Tracking and Tracing Grouped Rank              0.276
+Timeliness Grouped Rank                        0.274
+Customs Grouped Rank                           0.272
+International Shipments Grouped Rank           0.268
+International Shipments Score                 -0.272
+Customs Score                                 -0.276
+Timeliness Score                              -0.278
+Infrastructure Score                          -0.280
+Tracking and Tracing Score                    -0.280
+Logistics Competence and Quality Score        -0.283
