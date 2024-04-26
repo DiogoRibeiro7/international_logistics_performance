@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  26 APR 2024 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  26 APR 2024 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,13 +608,12 @@ Package: balance 1999/02/23 4.3 (PWD)
 File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box61
-)
-No file lpi_score.aux.
+) (lpi_score.aux)
 \openout1 = `lpi_score.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 114.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 114.
-(/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/omlnxlmi.fd
+ (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 114.
@@ -705,6 +704,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring OFF on input line 114.
+ (lpi_score.out) (lpi_score.out)
 \@outlinefile=\write4
 \openout4 = `lpi_score.out'.
 
@@ -770,289 +770,182 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  Excluding 'CCSXML' comment.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/LaTeX-Template/lpi_score.tex:259: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \documentclass
-                    [sigconf]{acmart}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/LaTeX-Template/lpi_score.tex:263: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 \AtBeginDocument
-                      {%
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Class acmart Warning: The macro \acmPriceis obsolete. ACM no longer prints the price in bibstrip. on input line 286.
-
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/LaTeX-Template/lpi_score.tex:325: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.325 \begin{document}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 434.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 434.
+(Font)              scaled to size 17.28pt on input line 223.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 223.
  (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 434.
+(Font)              scaled to size 17.28pt on input line 223.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 434.
+(Font)              scaled to size 17.28pt on input line 223.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 434.
+(Font)              scaled to size 12.0pt on input line 223.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 434.
+(Font)              scaled to size 12.0pt on input line 223.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 434.
+(Font)              scaled to size 8.8pt on input line 223.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 434.
+(Font)              scaled to size 6.6pt on input line 223.
  (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 434.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 223.
  (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 434.
+(Font)              scaled to size 8.8pt on input line 223.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 434.
+(Font)              scaled to size 10.0pt on input line 223.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 434.
+(Font)              scaled to size 10.0pt on input line 223.
 
 
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 434.
+Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 223.
 
 
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 434.
+Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 223.
 
 
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 434.
+Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 223.
 
 
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 434.
-
-
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 434.
-
-
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 434.
-
-
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your street address on input line 434.
-
-
-Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 434.
-
-[1.1{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 434.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 434.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 434.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 434.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 434.
-
-Underfull \vbox (badness 1694) has occurred while \output is active []
+Class acmart Warning: ACM no longer collects authors' postal addresses. I am ignoring your postal code on input line 223.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 434.
+(Font)              scaled to size 5.5pt on input line 223.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 223.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 434.
-
-
-LaTeX Warning: Reference `TotPages' on page 2 undefined on input line 434.
-
+(Font)              scaled to size 7.0pt on input line 223.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 223.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 223.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 434.
+(Font)              scaled to size 9.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 223.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 223.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 434.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 450.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 450.
-[2.2
+(Font)              scaled to size 8.0pt on input line 223.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.2pt on input line 223.
+
+Overfull \hbox (2.53166pt too wide) in paragraph at lines 236--237
+[]\T1/LinuxLibertineT-TLF/b/n/9 (-20) Timeliness of Ship-ments: \T1/LinuxLibertineT-TLF/m/n/9 (-20) Checks the reg-u-lar-ity with which
+ []
+
+[1.1{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `WB' on page 3 undefined on input line 465.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 282.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 282.
+ [2.2]
+
+Package natbib Warning: Citation `BM' on page 3 undefined on input line 287.
 
 
-Package natbib Warning: Citation `WBreport2016' on page 3 undefined on input line 465.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `WBreport2018' on page 3 undefined on input line 465.
+Package natbib Warning: Citation `maroco2018analise' on page 3 undefined on input line 331.
+
+
+Package natbib Warning: Citation `carroll1978effect' on page 3 undefined on input line 338.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<Loadings.png, id=126, 553.851pt x 268.713pt>
+File: Loadings.png Graphic file (type png)
+<use Loadings.png>
+Package pdftex.def Info: Loadings.png  used on input line 342.
+(pdftex.def)             Requested size: 354.40495pt x 171.94702pt.
 
 
-Package natbib Warning: Citation `correiaICIE' on page 3 undefined on input line 477.
+Class acmart Warning: A possible image without description on input line 345.
 
 
-Package natbib Warning: Citation `JASP' on page 3 undefined on input line 477.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `R' on page 3 undefined on input line 479.
+Package natbib Warning: Citation `pestana2008analise' on page 3 undefined on input line 370.
 
 
-Package natbib Warning: Citation `WB' on page 3 undefined on input line 481.
+LaTeX Warning: Reference `tab:reliability' on page 3 undefined on input line 370.
 
 
-Package natbib Warning: Citation `correiaICIE' on page 3 undefined on input line 483.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 489.
+ [3.3]
 
-LaTeX Warning: Reference `AppendixB' on page 3 undefined on input line 489.
-
-
-LaTeX Warning: Reference `tab:mardia'STestOfMultivariateNormality' on page 3 undefined on input line 489.
+Package natbib Warning: Citation `WBreport2023' on page 4 undefined on input line 381.
 
 
-LaTeX Warning: Reference `AppendixB' on page 3 undefined on input line 495.
+Package natbib Warning: Citation `WBreport2023' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Reference `tab:pearson'SCorrelations' on page 3 undefined on input line 495.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `AppendixB' on page 3 undefined on input line 499.
-
-
-LaTeX Warning: Reference `tab:descriptiveStatistics' on page 3 undefined on input line 499.
-
-[3.3]
-Overfull \hbox (86.29214pt too wide) in paragraph at lines 513--530
- [][] 
- []
-
-
-Package natbib Warning: Citation `maroco2018analise' on page 4 undefined on input line 534.
-
-
-Package natbib Warning: Citation `beysenbaev2020proposals' on page 4 undefined on input line 537.
-
-
-Package natbib Warning: Citation `beysenbaev2020proposals' on page 4 undefined on input line 539.
-
-
-Package natbib Warning: Citation `carroll1978effect' on page 4 undefined on input line 542.
-
-
-Overfull \hbox (2.95915pt too wide) in paragraph at lines 560--575
- [][] 
- []
-
-
-Package natbib Warning: Citation `pestana2008analise' on page 4 undefined on input line 577.
-
-
-LaTeX Warning: Reference `tab:reliability' on page 4 undefined on input line 577.
-
-[4.4]
-
-Package natbib Warning: Citation `WBreport2016' on page 5 undefined on input line 588.
-
-
-Package natbib Warning: Citation `WBreport2018' on page 5 undefined on input line 588.
-
-
-Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 588.
-
-
-Package natbib Warning: Citation `WBreport2016' on page 5 undefined on input line 591.
-
-
-Package natbib Warning: Citation `WBreport2018' on page 5 undefined on input line 591.
-
-
-Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 591.
-
-Processing 'acks' comment.
+ Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (comment.cut) (lpi_score.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4.4 <./Loadings.png>]
+Underfull \hbox (badness 6675) in paragraph at lines 150--156
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) World Bank. []$https : / / lpi . worldbank . org / international / global$[], last ac-cessed
  []
 
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package natbib Warning: There were undefined citations.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 646.
+Class acmart Warning: Some images may lack descriptions.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 439.
 
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[5.5]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 646.
+(Font)              scaled to size 8.8pt on input line 439.
 
-Overfull \hbox (8.9816pt too wide) in paragraph at lines 646--646
- [][][][][] 
- []
-
-
-Overfull \hbox (8.9816pt too wide) in paragraph at lines 646--646
+Overfull \hbox (8.7792pt too wide) has occurred while \output is active
  [][][][][] 
  []
 
@@ -1060,15 +953,7 @@ Overfull \hbox (8.9816pt too wide) in paragraph at lines 646--646
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 646.
- [6.5] (lpi_score.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+) [5.5] (lpi_score.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -1077,37 +962,21 @@ L3 programming layer <2023-10-10>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
-
-Package rerunfilecheck Warning: File `lpi_score.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lpi_score.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  53C4C79B11091B6B6B55D8BF81D58EF3;1220.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 325 (\begingroup)
-### bottom level 
+Package rerunfilecheck Info: File `lpi_score.out' has not changed.
+(rerunfilecheck)             Checksum: 1CB6E4F463F1AD795E2FCC2B5834CE67;1350.
+ ) 
 Here is how much of TeX's memory you used:
- 21245 strings out of 474824
- 354176 string characters out of 5739209
- 1946040 words of memory out of 5000000
- 42153 multiletter control sequences out of 15000+600000
- 750142 words of font info for 445 fonts, out of 8000000 for 9000
+ 21240 strings out of 474824
+ 353688 string characters out of 5739209
+ 1953040 words of memory out of 5000000
+ 42190 multiletter control sequences out of 15000+600000
+ 734082 words of font info for 409 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1408b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI7.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb>
-Output written on lpi_score.pdf (6 pages, 433325 bytes).
+ 90i,13n,131p,1096b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb>
+Output written on lpi_score.pdf (5 pages, 547199 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 114705 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 102510 words of extra memory for PDF output out of 106986 (max. 10000000)
 
