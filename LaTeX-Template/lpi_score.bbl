@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{1}
+\begin{thebibliography}{6}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,17 +37,67 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[Arvis et~al\mbox{.}(2023)]%
-        {arvis2023}
-\bibfield{author}{\bibinfo{person}{Jean-François Arvis},
-  \bibinfo{person}{Lauri Ojala}, \bibinfo{person}{Ben Shepherd},
-  \bibinfo{person}{Dina Ulybina}, {and} \bibinfo{person}{Christina Wiederer}.}
-  \bibinfo{year}{2023}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Connecting to Compete 2023: Trade Logistics
+\bibitem[cor(2024)]%
+        {correiaICIE}
+ \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{International Logistics Performance Feature
+  Extraction Insights and Portugal's Global Positioning}}.
+\newblock
+
+
+\bibitem[JAS(1 30)]%
+        {JASP}
+ \bibinfo{year}{\url{https://jasp-stats.org/}, last accessed
+  2024-01-30}\natexlab{}.
+\newblock \bibinfo{title}{JASP Homepage - A Fresh Way to Do Statistics}.
+\newblock
+\newblock
+
+
+\bibitem[R(4 24)]%
+        {R}
+ \bibinfo{year}{\url{https://www.r-project.org/}, last accessed
+  2024-04-24}\natexlab{}.
+\newblock \bibinfo{title}{The R Project for Statistical Computing}.
+\newblock
+\newblock
+
+
+\bibitem[Arvis et~al\mbox{.}(2018)]%
+        {WBreport2018}
+\bibfield{author}{\bibinfo{person}{J. Arvis}, \bibinfo{person}{L. Ojala},
+  \bibinfo{person}{C. Wiederer}, \bibinfo{person}{B. Shepherd},
+  \bibinfo{person}{A. Rajand}, \bibinfo{person}{K. Dairabayeva}, {and}
+  \bibinfo{person}{T. Kiiski}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Connecting to Compete 2018: Trade Logistics
   in the Global Economy – The Logistics Performance Index and Its
   Indicators}}.
-\newblock \bibinfo{publisher}{World Bank Group}, \bibinfo{address}{Washington,
-  DC}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Washington, DC: World Bank Group}.
+\newblock
+
+
+\bibitem[Arvis et~al\mbox{.}(2016)]%
+        {WBreport2016}
+\bibfield{author}{\bibinfo{person}{J. Arvis}, \bibinfo{person}{D. Saslavsky},
+  \bibinfo{person}{L. Ojala}, \bibinfo{person}{B. Shepherd},
+  \bibinfo{person}{C. Busch}, \bibinfo{person}{A. Raj}, {and}
+  \bibinfo{person}{T. Naula}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Connecting to Compete 2016: Trade Logistics
+  in the Global Economy – The Logistics Performance Index and Its
+  Indicators}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Washington, DC: World Bank Group}.
+\newblock
+
+
+\bibitem[Bank(0130)]%
+        {WB}
+\bibfield{author}{\bibinfo{person}{World Bank}.}
+  \bibinfo{year}{\url{https://lpi.worldbank.org/international/global}, last
+  accessed 2024/01/30}\natexlab{}.
+\newblock \bibinfo{title}{Logistics Performance Index Homepage}.
+\newblock
 \newblock
 
 

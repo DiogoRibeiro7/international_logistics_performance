@@ -219,9 +219,6 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/preprint/balance.sty
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./lpi_score.aux
-INPUT ./lpi_score.aux
-INPUT lpi_score.aux
 OUTPUT lpi_score.aux
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/omlnxlmi.fd
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/omlnxlmi.fd
@@ -280,12 +277,6 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT ./lpi_score.out
-INPUT ./lpi_score.out
-INPUT lpi_score.out
-INPUT lpi_score.out
-INPUT ./lpi_score.out
-INPUT ./lpi_score.out
 OUTPUT lpi_score.out
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -355,6 +346,9 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxsym.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
@@ -396,9 +390,12 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinBiolinumTB-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
@@ -407,8 +404,14 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
@@ -424,20 +427,29 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inconsolata/t1zi4.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inconsolata/t1zi4.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/inconsolata/t1zi4.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/inconsolata/t1-zi4r-4.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/inconsolata/t1-zi4b-4.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/nxlmi7.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/LibertineMathMI7.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/NewTXMI7.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/stxscr.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/nxlmi.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/LibertineMathMI.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/NewTXMI.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/stxscr.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/nxlmia.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/LibertineMathRM.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/txmiaSTbb.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/txmiaX.tfm
 OUTPUT comment.cut
 INPUT ./comment.cut
 INPUT ./comment.cut
@@ -445,12 +457,6 @@ INPUT comment.cut
 INPUT ./lpi_score.bbl
 INPUT ./lpi_score.bbl
 INPUT lpi_score.bbl
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-pdfdoc.def
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-pdfdoc.def
@@ -458,19 +464,22 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-utf8.def
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-utf8.def
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-utf8.def
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT lpi_score.aux
 INPUT ./lpi_score.out
 INPUT ./lpi_score.out
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-4.enc
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI7.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI7.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb
@@ -481,5 +490,9 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/font
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb
