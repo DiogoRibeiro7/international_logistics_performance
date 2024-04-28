@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  28 APR 2024 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  28 APR 2024 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -877,65 +877,73 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1990) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3.3]
+ [3.3] [4.4]
+Underfull \vbox (badness 2096) has occurred while \output is active []
 
-Package natbib Warning: Citation `BM' on page 4 undefined on input line 319.
 
+Overfull \hbox (4.06598pt too wide) in paragraph at lines 385--386
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) ef-fi-cacy of mod-els us-ing both the orig-i-nal and re-duced datasets.
+ []
+
+[5.5]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `maroco2018analise' on page 4 undefined on input line 363.
-
-
-Package natbib Warning: Citation `carroll1978effect' on page 4 undefined on input line 370.
+Package natbib Warning: Citation `maroco2018analise' on page 6 undefined on input line 462.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Loadings.png, id=147, 553.851pt x 268.713pt>
+
+
+Package natbib Warning: Citation `carroll1978effect' on page 6 undefined on input line 469.
+
+<Loadings.png, id=214, 553.851pt x 268.713pt>
 File: Loadings.png Graphic file (type png)
 <use Loadings.png>
-Package pdftex.def Info: Loadings.png  used on input line 374.
+Package pdftex.def Info: Loadings.png  used on input line 473.
 (pdftex.def)             Requested size: 354.40495pt x 171.94702pt.
 
-
-Class acmart Warning: A possible image without description on input line 377.
+Class acmart Warning: A possible image without description on input line 476.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `pestana2008analise' on page 4 undefined on input line 402.
+Package natbib Warning: Citation `pestana2008analise' on page 6 undefined on input line 501.
 
 
-LaTeX Warning: Reference `tab:reliability' on page 4 undefined on input line 402.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4.4]
-
-Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 413.
-
-
-Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 416.
+LaTeX Warning: Reference `tab:reliability' on page 6 undefined on input line 501.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- Processing 'acks' comment.
+ [6.6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `WBreport2023' on page 7 undefined on input line 512.
+
+
+Package natbib Warning: Citation `WBreport2023' on page 7 undefined on input line 515.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7.7 <./Loadings.png>] Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (comment.cut) (lpi_score.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5.5 <./Loadings.png>]
 Underfull \hbox (badness 6675) in paragraph at lines 150--156
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) World Bank. []$https : / / lpi . worldbank . org / international / global$[], last ac-cessed
  []
+
+
+Underfull \vbox (badness 5260) has occurred while \output is active []
 
 )
 
@@ -945,14 +953,14 @@ Package natbib Warning: There were undefined citations.
 Class acmart Warning: Some images may lack descriptions.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 471.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 570.
 
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 471.
+(Font)              scaled to size 8.8pt on input line 570.
 
 Overfull \hbox (8.7792pt too wide) has occurred while \output is active
  [][][][][] 
@@ -962,7 +970,7 @@ Overfull \hbox (8.7792pt too wide) has occurred while \output is active
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [6.6] (lpi_score.aux)
+) [8.8] (lpi_score.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -972,20 +980,20 @@ L3 programming layer <2023-10-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `lpi_score.out' has not changed.
-(rerunfilecheck)             Checksum: 395D09C4247B76C2B988DC15049ED07E;1610.
+(rerunfilecheck)             Checksum: 3D231EC2039B461FC32C425B2C7A9133;2666.
  ) 
 Here is how much of TeX's memory you used:
- 21251 strings out of 474824
- 353878 string characters out of 5739209
+ 21398 strings out of 474824
+ 357175 string characters out of 5739209
  1953040 words of memory out of 5000000
- 42192 multiletter control sequences out of 15000+600000
- 734628 words of font info for 413 fonts, out of 8000000 for 9000
+ 42251 multiletter control sequences out of 15000+600000
+ 742706 words of font info for 458 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,13n,131p,1096b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb>
-Output written on lpi_score.pdf (6 pages, 563574 bytes).
+ 90i,12n,131p,1096b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI7.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathRM.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txexs.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb>
+Output written on lpi_score.pdf (8 pages, 610892 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 102526 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 102566 words of extra memory for PDF output out of 106986 (max. 10000000)
 

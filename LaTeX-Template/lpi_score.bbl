@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{30}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -167,6 +167,124 @@
 \newblock
 
 
+\bibitem[Bro and Smilde(2014)]%
+        {bro2014principal}
+\bibfield{author}{\bibinfo{person}{Rasmus Bro} {and} \bibinfo{person}{Age~K
+  Smilde}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Principal component analysis}.
+\newblock \bibinfo{journal}{\emph{Analytical Methods}} (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[Cand{\`e}s et~al\mbox{.}(2011)]%
+        {candes2011robust}
+\bibfield{author}{\bibinfo{person}{Emmanuel~J Cand{\`e}s},
+  \bibinfo{person}{Xiaodong Li}, \bibinfo{person}{Yi Ma}, {and}
+  \bibinfo{person}{John Wright}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Robust principal component analysis?}
+\newblock \bibinfo{journal}{\emph{Journal of the ACM (JACM)}}
+  \bibinfo{volume}{58}, \bibinfo{number}{3} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{1--37}.
+\newblock
+
+
+\bibitem[Forum(2018)]%
+        {wef2018}
+\bibfield{author}{\bibinfo{person}{World~Economic Forum}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The Global Enabling Trade Report 2018}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.weforum.org/reports/the-global-enabling-trade-report-2018}}.
+\newblock
+
+
+\bibitem[Forum(2020)]%
+        {wef2020}
+\bibfield{author}{\bibinfo{person}{World~Economic Forum}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{The Global Competitiveness Report 2020}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www3.weforum.org/docs/WEF_TheGlobalCompetitivenessReport2020.pdf}}.
+\newblock
+
+
+\bibitem[Hasan and Abdulazeez(2021)]%
+        {hasan2021review}
+\bibfield{author}{\bibinfo{person}{Bahaa M~Sabbar Hasan} {and}
+  \bibinfo{person}{Adnan~M Abdulazeez}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A review of principal component analysis algorithm
+  for dimensionality reduction}.
+\newblock \bibinfo{journal}{\emph{Journal of Soft Computing and Data Mining}}
+  \bibinfo{volume}{2}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{34--45}.
+\newblock
+
+
+\bibitem[Ivosev et~al\mbox{.}(2008)]%
+        {ivosev2008dimensionality}
+\bibfield{author}{\bibinfo{person}{Gordana Ivosev}, \bibinfo{person}{Lucas
+  Burton}, {and} \bibinfo{person}{Ron Bonner}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Dimensionality reduction and visualization in
+  principal component analysis}.
+\newblock \bibinfo{journal}{\emph{Analytical Chemistry}} \bibinfo{volume}{80},
+  \bibinfo{number}{17} (\bibinfo{year}{2008}), \bibinfo{pages}{6717--6725}.
+\newblock
+
+
+\bibitem[Jolliffe and Cadima(2016)]%
+        {jolliffe2016principal}
+\bibfield{author}{\bibinfo{person}{Ian~T Jolliffe} {and} \bibinfo{person}{Jorge
+  Cadima}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Principal component analysis: A review and recent
+  developments}.
+\newblock \bibinfo{journal}{\emph{Philosophical Transactions of the Royal
+  Society A}} \bibinfo{volume}{374}, \bibinfo{number}{2065}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[Mar{\^o}co(2018)]%
+        {maroco2018}
+\bibfield{author}{\bibinfo{person}{Jo{\~a}o Mar{\^o}co}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{An{\'a}lise Estat{\'i}stica com o SPSS
+  Statistics} (\bibinfo{edition}{7} ed.)}.
+\newblock
+
+
+\bibitem[McKeown and Sejnowski(1998)]%
+        {mckeown1998independent}
+\bibfield{author}{\bibinfo{person}{Martin~J McKeown} {and}
+  \bibinfo{person}{Terrence~J Sejnowski}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Independent component analysis of fMRI data:
+  examining the assumptions}.
+\newblock \bibinfo{journal}{\emph{Human Brain Mapping}} \bibinfo{volume}{6},
+  \bibinfo{number}{5-6} (\bibinfo{year}{1998}), \bibinfo{pages}{368--372}.
+\newblock
+
+
+\bibitem[Monahan(2000)]%
+        {monahan2000nonlinear}
+\bibfield{author}{\bibinfo{person}{Adam~H Monahan}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Nonlinear principal component analysis by neural
+  networks: Theory and application to the Lorenz system}.
+\newblock \bibinfo{journal}{\emph{Journal of Climate}} \bibinfo{volume}{13},
+  \bibinfo{number}{4} (\bibinfo{year}{2000}), \bibinfo{pages}{821--835}.
+\newblock
+
+
+\bibitem[on~Trade and (UNCTAD)(2020)]%
+        {unctad2020}
+\bibfield{author}{\bibinfo{person}{United Nations~Conference on Trade} {and}
+  \bibinfo{person}{Development (UNCTAD)}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Review of Maritime Transport 2020}.
+\newblock
+  \bibinfo{howpublished}{\url{https://unctad.org/webflyer/review-maritime-transport-2020}}.
+\newblock
+
+
 \bibitem[Rezaei et~al\mbox{.}(2018)]%
         {rezaei2018}
 \bibfield{author}{\bibinfo{person}{Jafar Rezaei}, \bibinfo{person}{Wouter~S.
@@ -176,6 +294,61 @@
   performance index indicators using Best Worst Method}.
 \newblock \bibinfo{journal}{\emph{Transport Policy}}  \bibinfo{volume}{68}
   (\bibinfo{year}{2018}), \bibinfo{pages}{158--169}.
+\newblock
+
+
+\bibitem[Shlens(2014)]%
+        {shlens2014tutorial}
+\bibfield{author}{\bibinfo{person}{Jonathon Shlens}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A tutorial on principal component analysis}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1404.1100}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[Takane and Hunter(2001)]%
+        {takane2001constrained}
+\bibfield{author}{\bibinfo{person}{Yoshio Takane} {and}
+  \bibinfo{person}{Michael~A Hunter}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Constrained principal component analysis: a
+  comprehensive theory}.
+\newblock \bibinfo{journal}{\emph{Applicable Algebra in Engineering,
+  Communication and Computing}} \bibinfo{volume}{12}, \bibinfo{number}{5}
+  (\bibinfo{year}{2001}), \bibinfo{pages}{391--419}.
+\newblock
+
+
+\bibitem[Wang and Paliwal(2003)]%
+        {wang2003feature}
+\bibfield{author}{\bibinfo{person}{Xue Wang} {and} \bibinfo{person}{Kuldip~K
+  Paliwal}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Feature extraction and dimensionality reduction
+  algorithms and their applications in vowel recognition}.
+\newblock \bibinfo{journal}{\emph{Pattern Recognition}} \bibinfo{volume}{36},
+  \bibinfo{number}{10} (\bibinfo{year}{2003}), \bibinfo{pages}{2429--2439}.
+\newblock
+
+
+\bibitem[Wold et~al\mbox{.}(1987)]%
+        {wold1987principal}
+\bibfield{author}{\bibinfo{person}{Svante Wold}, \bibinfo{person}{Kim
+  Esbensen}, {and} \bibinfo{person}{Paul Geladi}.}
+  \bibinfo{year}{1987}\natexlab{}.
+\newblock \showarticletitle{Principal component analysis}.
+\newblock \bibinfo{journal}{\emph{Chemometrics and Intelligent Laboratory
+  Systems}} \bibinfo{volume}{2}, \bibinfo{number}{1-3} (\bibinfo{year}{1987}),
+  \bibinfo{pages}{37--52}.
+\newblock
+
+
+\bibitem[{World Bank}(2023)]%
+        {lpi_worldbank_2023}
+\bibfield{author}{\bibinfo{person}{{World Bank}}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Logistics Performance Index}.
+\newblock
+  \bibinfo{howpublished}{\url{https://lpi.worldbank.org/international/scorecard}}.
 \newblock
 
 
@@ -189,6 +362,18 @@
 \newblock
 \newblock
 \shownote{Accessed: 2024-01-30}.
+
+
+\bibitem[Wu et~al\mbox{.}(2007)]%
+        {wu2007feature}
+\bibfield{author}{\bibinfo{person}{Jin Wu}, \bibinfo{person}{Jianhui Wang},
+  {and} \bibinfo{person}{Li Liu}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Feature extraction via KPCA for classification of
+  gait patterns}.
+\newblock \bibinfo{journal}{\emph{Human Movement Science}}
+  \bibinfo{volume}{26}, \bibinfo{number}{2} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{393--411}.
+\newblock
 
 
 \end{thebibliography}
