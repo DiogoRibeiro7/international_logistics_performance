@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  27 APR 2024 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  28 APR 2024 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,69 +870,74 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 275.
+(Font)              scaled to size 9.0pt on input line 277.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 275.
+(Font)              scaled to size 7.0pt on input line 277.
  [2.2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 1990) has occurred while \output is active []
 
-Package natbib Warning: Citation `BM' on page 3 undefined on input line 307.
+ [3.3]
+
+Package natbib Warning: Citation `BM' on page 4 undefined on input line 319.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3.3]
 
-Package natbib Warning: Citation `maroco2018analise' on page 4 undefined on input line 351.
+Package natbib Warning: Citation `maroco2018analise' on page 4 undefined on input line 363.
 
 
-Package natbib Warning: Citation `carroll1978effect' on page 4 undefined on input line 358.
+Package natbib Warning: Citation `carroll1978effect' on page 4 undefined on input line 370.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <Loadings.png, id=147, 553.851pt x 268.713pt>
 File: Loadings.png Graphic file (type png)
 <use Loadings.png>
-Package pdftex.def Info: Loadings.png  used on input line 362.
+Package pdftex.def Info: Loadings.png  used on input line 374.
 (pdftex.def)             Requested size: 354.40495pt x 171.94702pt.
 
-Class acmart Warning: A possible image without description on input line 365.
+
+Class acmart Warning: A possible image without description on input line 377.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `pestana2008analise' on page 4 undefined on input line 390.
+Package natbib Warning: Citation `pestana2008analise' on page 4 undefined on input line 402.
 
 
-LaTeX Warning: Reference `tab:reliability' on page 4 undefined on input line 390.
+LaTeX Warning: Reference `tab:reliability' on page 4 undefined on input line 402.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package natbib Warning: Citation `WBreport2023' on page 4 undefined on input line 401.
-
-
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
  [4.4]
 
-Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 404.
+Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 413.
 
-Processing 'acks' comment.
+
+Package natbib Warning: Citation `WBreport2023' on page 5 undefined on input line 416.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (comment.cut) (lpi_score.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5.5 <./Loadings.png>]
 Underfull \hbox (badness 6675) in paragraph at lines 150--156
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) World Bank. []$https : / / lpi . worldbank . org / international / global$[], last ac-cessed
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5.5 <./Loadings.png>])
+)
 
 Package natbib Warning: There were undefined citations.
 
@@ -940,10 +945,14 @@ Package natbib Warning: There were undefined citations.
 Class acmart Warning: Some images may lack descriptions.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 459.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 471.
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 459.
+(Font)              scaled to size 8.8pt on input line 471.
 
 Overfull \hbox (8.7792pt too wide) has occurred while \output is active
  [][][][][] 
@@ -963,20 +972,20 @@ L3 programming layer <2023-10-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `lpi_score.out' has not changed.
-(rerunfilecheck)             Checksum: 0A7D2DE2948EB0E781D5731EEA06C36D;1480.
+(rerunfilecheck)             Checksum: 395D09C4247B76C2B988DC15049ED07E;1610.
  ) 
 Here is how much of TeX's memory you used:
- 21249 strings out of 474824
- 353858 string characters out of 5739209
+ 21251 strings out of 474824
+ 353878 string characters out of 5739209
  1953040 words of memory out of 5000000
- 42191 multiletter control sequences out of 15000+600000
+ 42192 multiletter control sequences out of 15000+600000
  734628 words of font info for 413 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1096b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,131p,1096b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/LibertineMathMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinBiolinumTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineT.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTB.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/libertine/LinLibertineTI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb>
-Output written on lpi_score.pdf (6 pages, 554385 bytes).
+Output written on lpi_score.pdf (6 pages, 563574 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 102518 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 102526 words of extra memory for PDF output out of 106986 (max. 10000000)
 
