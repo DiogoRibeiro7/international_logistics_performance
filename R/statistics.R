@@ -9,6 +9,13 @@ library(MASS)
 # Load the dataset
 data <- read_excel("data_transformed.xlsx")
 
+# Exclude non-score columns
+columns_to_remove <- c("Year", "Economy", "Code")
+# Safely exclude non-score columns
+columns_to_keep <- setdiff(names(data), columns_to_remove)
+data <- data[, columns_to_keep, drop = FALSE]
+
+
 # Check for missing values and remove or impute
 summary(data)  # Get a summary for initial analysis
 
@@ -20,7 +27,9 @@ columns_of_interest <- c("Customs Score", "Infrastructure Score", "International
 
 
 for (variable in columns_of_interest) {
-  formula <- as.formula(paste("LPI Score ~", variable))  # dynamically create formula
+  formulaString <- paste("`LPI Score` ~ `", variable, "`", sep="")
+  formula <- as.formula(formulaString)
+  print(formula)
   aov_result <- aov(formula, data=data)
   results[[variable]] <- summary(aov_result)
 }
