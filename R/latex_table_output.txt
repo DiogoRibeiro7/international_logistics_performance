@@ -1,0 +1,14 @@
+
+\begin{tabular}{lrrrrrrr}
+\toprule
+Score & 2023 & 2018 & 2016 & 2014 & 2012 & 2010 & 2007\\
+\midrule
+Customs Score & 0.958 & 0.958 & 0.968 & 0.943 & 0.960 & 0.960 & 0.965\\
+Infrastructure Score & 0.964 & 0.972 & 0.976 & 0.973 & 0.970 & 0.968 & 0.972\\
+International Shipments Score & 0.915 & 0.932 & 0.967 & 0.931 & 0.948 & 0.859 & 0.958\\
+Logistics Competence and Quality Score & 0.973 & 0.980 & 0.982 & 0.978 & 0.981 & 0.973 & 0.975\\
+Timeliness Score & 0.939 & 0.954 & 0.960 & 0.935 & 0.940 & 0.907 & 0.932\\
+\addlinespace
+Tracking and Tracing Score & 0.967 & 0.966 & 0.976 & 0.957 & 0.970 & 0.951 & 0.968\\
+\bottomrule
+\end{tabular}

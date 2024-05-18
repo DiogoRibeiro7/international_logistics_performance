@@ -13,6 +13,8 @@ library(car)
 library(cluster)
 library(psych)
 library(readr)
+library(tidyr)
+library(knitr)
 
 # Set the number of digits to display (setting to 6 or more is usually sufficient to ensure at least 4 decimal places)
 options(digits=3)
@@ -355,4 +357,14 @@ final_dataframe <- bind_rows(data_frames, .id = "Year") %>%
 print(final_dataframe)
 
 
+# Convert the combined DataFrame to a LaTeX table
+latex_table <- kable(final_dataframe, format = "latex", booktabs = TRUE)
 
+# Print the LaTeX table to the console
+cat(latex_table)
+
+# Define the output file path
+output_file <- "latex_table_output.txt"
+
+# Write the LaTeX table to the text file
+writeLines(latex_table, con = output_file)
