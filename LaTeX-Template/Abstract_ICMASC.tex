@@ -1,0 +1,194 @@
+\documentclass[a4paper,11pt,twoside]{article}
+
+\usepackage{icmaasc}
+
+% ---------------------------------------------
+\setcounter{page}{1}
+% ---------------------------------------------
+
+
+
+\begin{document}
+
+\title{Features Extraction Over the Years in International Logistics Performance Index}
+\titlerunning{Features Extraction LPI}
+
+\author{{Aldina Correia$^{1\star}$} \and Diogo Ribeiro$^3$}
+\authorrunning{A.Correia, D.Ribeiro}
+\address{$^1$ CIICESI, ESTG, Instituto Polit\'ecnico  do Porto, Portugal \\
+	$^2$ MySense, United Kingdom}
+
+\email{$^{1\star}$aic@estg.ipp.pt, $^{2}$diogo.ribeiro@mysense.ai}
+
+\abstract{ The importance of the logistics performance of companies, regions and countries to support decision-making is universally recognised, covering the rationalisation of supply chains, the optimisation of inventory management and promoting global collaboration.  
+Efficient logistics integration with innovative technologies is crucial for prompt delivery and increased organisational performance. This study examines the correlation structure between Logistics Performance Index (LPI) indicators over several years.
+  %
+  The LPI assesses global logistical performance by measuring factors such as the quality of commercial and transport infrastructure, the ease of customs procedures and the efficiency of customs clearance, among other aspects that influence the transnational flow of goods.
+%
+Our results confirm the LPI as a longitudinal latent variable, characterised by its indicators, which demonstrate remarkable internal consistency. This consistency underpins the reliability of the LPI for assessing global logistics performance.
+%
+Recognised as a valuable measure of logistics efficiency, LPI serves as a practical tool in business and politics, guiding strategic decision-making and improving the operational cost-benefit ratio and competitiveness of organisations.}
+
+\keywords{Logistics Performance, LPI, Logistics Decision-Making, Feature Aggregation, Principal Component Analysis, Longitudinal}
+
+\msc{62Hxx; 62H25; 62Pxx.}
+
+
+\makeppage
+
+
+\pagestyle{plain} 
+
+\section{Introduction}
+\input{Introduction}
+
+%\section{Principal Component Analysis}
+%\input{PCA}
+
+\section{Results and discussion}
+
+The LPI \cite{worldbank2024} is an aggregate index for a welfare evaluation of countries' logistics performance worldwide based on multiple variables. 
+LPI has six key dimensions \cite{WBreport2016,WBreport2018}:
+%The LPI is derived from a survey of international freight forwarders and express carriers around the world and is an overall impression of countries' performance in six key dimensions \cite{WBreport2016,WBreport2018}:
+%
+i) \textbf{Customs} Clearance Process: The efficiency of customs and border clearance processes; 
+ii) \textbf{Infrastructure} Quality: The quality of trade and transport-related infrastructure, including ports, railroads, and roads;
+iii) Ease of Arranging \textbf{(International) Shipments}: The ease of arranging competitively priced shipments;
+iV)\textbf{Logistics Competence and Quality } of Services: The competence and quality of logistics services, such as transport operators and customs brokers;
+v)\textbf{Timeliness} of Shipments: The frequency with which shipments reach the consignee within the scheduled or expected delivery time;
+vi) \textbf{Tracking and Tracing}: The ability to track and trace consignments.
+
+ %The scores for each of these aspects of logistics performance are weighted averages of country scores and hard data that capture logistic efficiency by quantifying the ease with which goods cross borders and circulate in the country, that is, to allow goods to flow into, and to transit within, the country in a speedy and cost-efficient manner.
+
+To identify the variables that most contribute  to the countries' logistical performance, techniques for selecting or extracting key indicators can be used. In both cases, the aim is to retain the indicators that maximise the variance extracted from the original data. 
+%
+In \cite{correiaICIE}, to ensure that the extracted characteristics were relevant and informative in relation to the 2023 Logistics Performance Index indicators, extraction techniques were used, in particular Exploratory Factor Analysis (EFA), using PCA in the JASP software.
+%
+The present study considers LPI indicators over several years, being therefore a longitudinal approach, using the software R.
+%
+This analysis is based on the values of the LPI %\cite{lpi_worldbank_2023} 
+indicators in the years 2007, 2010, 2012, 2014, 2016, 2018 and 2023.
+%
+As the EFA carried out in \cite{correiaICIE} allowed the identification of a single factor, in this work a Principal Component Analysis (PCA) was carried out over the available years, considering one component.
+%
+Assumptions for this techniques (EFA and PCA)  are verified: 
+%(i) sample dimension -- 5 to 10 observations by variable; (ii) normality of the variables; (iii) linearity of the variables; (iv) homocedasticity.
+%
+(i) Sample dimension - The sample comprises between 139 and 160 countries (Table \ref{tab:kmo}), and there is no missing values. Therefore, the sample size is adequate for the analysis of the six indicators.
+%
+(ii) Normality Assessment - Both the Mardia Test and the Energy Test were used, under the null hypothesis of multivariate normality.
+In some year Mardia's Test presented p values greater than 0.05, therefore, a multivariate normal distribution can be considered, but in most years none of the tests allows to confirm this assumption.
+%
+(iii) Linearity -- Pearson's Correlations between Indicators are significant at the 5\% significance level, in addition, they are all high, exceeding the value of 0.8, suggesting a strong interdependence between them (multicollinearity).
+Consequently, the extraction of factors from these characteristics is justified and imperative, in order to exclude potential redundancies and increase the robustness of the analysis.
+%
+(iv) Homoscedasticity -- The standard deviation values of the indicators are close to and below 1, which suggests the existence of homoscedasticity and a relatively consistent distribution of data around the respective means for each indicator, over the years.
+
+Once the necessary conditions have been verified, PCA can be implemented to extract the principal component that maximises the retention of variance of the observed variables.
+
+%----- Requires booktabs package -----%
+The Kaiser-Meyer-Olkin (KMO) Measure of Sample Adequacy (MSA) or Overal MSA and the MSA for each variable indicates the suitability of the variable for PCA. 
+
+
+\begin{table*}[h]
+  \caption{Kaiser-Meyer-Olkin and MSA}
+  \label{tab:kmo}
+  \centering
+\begin{tabular}{lccccccc}
+\hline
+%\textbf{Indicator (Score)}
+Year &	\textbf{2007}	&	\textbf{2010}	&	\textbf{2012}	&	\textbf{2014}	&	\textbf{2016}	&	\textbf{2018}	&	\textbf{2023}	\\  
+\hline
+%Customs	&	0.91	&	0.92	&	0.93	&	0.89	&	0.95	&	0.95	&	0.91	\\	
+%Infrastructure	&	0.90	&	0.88	&	0.94	&	0.91	&	0.93	&	0.92	&	0.90	\\	 
+%International Shipments	&	0.96	&	0.98	&	0.96	&	0.97	&	0.96	&	0.96	&	0.97	\\	 
+%Logistics Competence and Quality	&	0.93	&	0.89	&	0.91	&	0.91	&	0.93	&	0.91	&	0.93	\\	 
+%Timeliness	&	0.97	&	0.98	&	0.96	&	0.94	&	0.94	&	0.96	&	0.94	\\	 
+%Tracking and Tracing	&	0.93	&	0.94	&	0.94	&	0.93	&	0.94	&	0.95	&	0.92	\\	 
+\hline
+KMO - Overall MSA	&	0.93	&	0.92	&	0.94	&	0.92	&	0.94	&	0.94	&	0.93	\\	 
+\hline
+Number of Countries	&	150	&	155	&	155	&	160	&	160	&	160	&	139\\	
+\hline
+\end{tabular}
+\end{table*}
+
+KMO ranges between 0.92 and 0.94, \ref{tab:kmo}, over the years
+and the individual MSA of each variable between 0.88 and 0.98.
+This all individual MSAs are greater than the 0.5 threshold, indicating that they are adequate for the analysis. Additionally, the overall MSA or KMO  values suggests excellent suitability for applying PCA. %\cite{maroco2018analise}. 
+
+
+%\textcolor{red}{FALTAM OS RESULTADos}
+%The chi-square goodness-of-fit test, with null hypothesis that the observed data correlation matrix  is a random sample realisation from population having correlation matrix equal to the one returned by the extracted factors, has the $\chi^2$ presented in Table \ref{tab:loadings}, with $df=9$ and a $p-value <0.001$.
+
+In determining the number of factors to retain by focusing on PCA eigenvalues  exceeding 1 (\cite{carroll1978}), a single factor was extracted  over the years. The percentage of variance retained of these indicators over the years is between 87.8 and 94.4 (Table \ref{tab:loadings}). 
+This means that all indicators contribute to the same latent variable, indicating a high level of correlation between them.
+%
+Within this factor,  \textit{Logistics Competence and Quality} is always the indicator with highest loading. The behaviour of the loading's values across the time can be observed Figure \ref{fig:PCAl} and are between values 0.86 and 0.98.
+%
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.7\textwidth]{Loadings.png}
+    \caption{PCA Loadings across the years}
+    \label{fig:PCAl}
+\end{figure*}
+%
+The \textit{Infrastructure} indicator presented the second highest value since 2007, but was surpassed by \textit{Tracking and Tracing} in 2023.
+%
+The \textit{Customs} indicator has shown almost constant behaviour over the years, generally appearing in third or fourth position, in relation to loading values.
+%
+The indicators with lower values were \textit{Timeliness} and \textit{International Shipments}, particularly in 2010.
+%
+Since 2016, the loading's of all indicators have been decreasing.
+
+%The reliability of factors in the context of factor analysis refers to the consistency or stability of the measurement of underlying constructs represented by those factors. There are several ways to assess the reliability of factors, being the commonly used measure the Cronbach's Alpha, a frequentist scale Reliability Statistics. It assesses how well the items within a factor consistently measure the same underlying construct. A higher Cronbach's alpha value (typically above 0.70) indicates greater reliability.
+%
+
+%PCA Loadings, 
+\begin{table*}[h]
+  \caption{Explaned Variance and Reliability}
+  \label{tab:loadings}
+  \centering
+\begin{tabular}{lccccccc}
+\hline
+%\textbf{Indicator (Score)}
+Year &	\textbf{2007}	&	\textbf{2010}	&	\textbf{2012}	&	\textbf{2014}	&	\textbf{2016}	&	\textbf{2018}	&	\textbf{2023}	\\  
+\hline
+%Customs	&	0.965	&	0.960	&	0.960	&	0.943	&	0.968	&	0.958	&	0.958	\\	
+%Infrastructure	&	0.972	&	0.968	&	0.970	&	0.973	&	0.976	&	0.972	&	0.964	\\	
+%International Shipments	&	0.958	&	0.858	&	0.948	&	0.931	&	0.966	&	0.932	&	0.915	\\	
+%Logistics Competence and Quality	&	0.975	&	0.973	&	0.981	&	0.978	&	0.982	&	0.980	&	0.973	\\	
+%Timeliness	&	0.932	&	0.907	&	0.940	&	0.935	&	0.960	&	0.954	&	0.939	\\	
+%Tracking and Tracing	&	0.968	&	0.951	&	0.970	&	0.957	&	0.976	&	0.966	&	0.967	\\	\hline
+Explaned Variance (\%) - 1 factor 	&	92.5	&	87.8	&	90.8	&	92.4	&	94.3	&	92.3	&	90.8	\\	\hline
+Reliability - Cronbach' $\alpha$	&	0.983	&	0.970	&	0.982	&	0.979	&	0.987	&	0.982	&	0.978	\\	\hline
+\end{tabular}
+\end{table*}
+
+The estimate Cronbach's $\alpha$ of the factor obtained across the time is between $0.970$ and $0.987$, indicating excellent reliability . This provides evidence of the excellent internal consistency of the latent variable.
+%
+Cronbach's $\alpha$ of the extracted component obtained over time under analysis is between $0.970$ and $0.987$, indicating excellent reliability (\cite{pestana2008analise}). This provides evidence of the excellent internal consistency of the latent variable over the years.
+
+\section{Conclusion and Future Work}
+
+In this study it is concluded that there is a strong correlation between all LPI indicators over the years, suggesting a good definition of the LPI as latent variable. This correlation structure remains almost unchanged over the time, with the main indicator always being the same over the years. In fact, the positioning of the loadings of all indicators is at values above 0.85, therefore all of them are very close to 1.
+%
+The LPI also presents a notable internal consistency over the years, meaning the high level of correlation between these indicators, which  implies a coherent and unified measurement of the latent variable, reinforcing the reliability and coherence of the LPI as a robust tool for evaluating logistics performance.
+%
+This vision contributes to an understanding of logistics performance and can be generalized to organizations as a reference measure on a national and global scale, guiding the decision-making and strategic decisions with regard to the logistics performance of organizations, regions and countries.
+
+A good suggestion for future work is to develop a logistics performance index for logistics companies and extending these concepts to the industrial level. This would be very useful for these companies. 
+%
+Another suggestion is to consider a Longitudinal approach to PCA, using for example the R package \cite{jarmund2022alasca} and also a model based clustering and dimensionality reduction of mixed data \cite{ranalli2017model} approach.
+
+
+\section*{Acknowledgments}
+This work has been supported by national funds through FCT - Fundação para a Ciência e Tecnologia through project UIDB/04728/2020.
+
+% ---------------------------------------------
+\bibliographystyle{plain}
+\bibliography{sample-base.bib}
+
+% ---------------------------------------------
+
+\end{document}

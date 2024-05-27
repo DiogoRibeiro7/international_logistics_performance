@@ -1,0 +1,177 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\def\fileversion{1.0}
+\def\filedate{October 3rd, 2019}
+\ProvidesPackage{icmaasc}
+\ExecuteOptions{a4paper,twoside,onecolumn,11pt}
+\ProcessOptions
+
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[dvips]{graphicx}
+\usepackage[latin1]{inputenc}
+
+\setlength\paperheight{297mm}
+\setlength\paperwidth{210mm}
+\voffset -2.5cm
+\hoffset -2.5cm
+\oddsidemargin 2.5cm
+\evensidemargin 2.5cm
+\topmargin 0.5cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1.5cm
+\textheight 24.7cm
+\textwidth 16cm
+
+\bibliographystyle{plain}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}{Notation}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\usepackage{fancyhdr}
+\usepackage{fancyheadings}
+\pagestyle{fancy}
+\usepackage{calc}
+
+
+\newcommand{\thetitle}{}
+\newcommand{\titlerunning}{}
+\newcommand{\theauthor}{}
+\newcommand{\authorrunning}{}
+\newcommand{\address}{}
+\newcommand{\email}{}
+\newcommand{\theabstract}{}
+\newcommand{\keywords}{}
+\newcommand{\msc}{}
+%
+\usepackage{color}
+%\definecolor{falured}{rgb}{0.5, 0.09, 0.09}
+\definecolor{griso}{rgb}{0.00,0.00,0.00}
+\newcommand{\boston}[1]{\colorbox{griso}{{#1}}}
+
+
+
+
+
+\def\title#1{\def\thetitle{#1}}
+\def\titlerunning#1{\def\titlerunning{#1}}
+\def\author#1{\def\theauthor{#1}}
+\def\authorrunning#1{\def\authorrunning{#1}}
+\def\address#1{\def\address{#1}}
+\def\email#1{\def\email{#1}}
+\def\abstract#1{\def\theabstract{#1}}
+\def\keywords#1{\def\keywords{#1}}
+\def\msc#1{\def\msc{#1}}
+
+\renewcommand{\leftmark}[1]{\titlerunning\ #1}
+\renewcommand{\rightmark}[1]{\authorrunning#1}
+%\fancyhf{}
+\fancyhead[LE,RO]{\mdseries\thepage}
+\fancyhead[LO]{\itshape\leftmark}
+\fancyhead[RE]{\itshape\rightmark}
+\date{}
+
+\newcommand{\traith}{\hbox{\raisebox{0.5em}{\vrule depth 0pt height 0.4pt width 14cm}}}
+
+\setlength{\parindent}{0cm} \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\newcommand\makeppage{\par
+  \begingroup
+    \renewcommand\thefootnote{\@fnsymbol\c@footnote}%
+    \def\@makefnmark{\rlap{\@textsuperscript{\normalfont\@thefnmark}}}%
+    \long\def\@makefntext##1{\parindent 1em\noindent
+            \hb@xt@1.8em{%
+                \hss\@textsuperscript{\normalfont\@thefnmark}}##1}%
+
+            \global\@topnum\z@
+      \@makeppage
+
+    \thispagestyle{empty}\@thanks%
+  \endgroup
+  \setcounter{footnote}{0}%
+  \global\let\thanks\relax
+  \global\let\makeppage\relax
+  \global\let\@makeppage\relax
+  \global\let\@thanks\@empty
+  \global\let\and\relax
+}
+\def\@makeppage{%
+
+\cfoot{\copyright~~\textbf{ISEP, School of Engineering, Polytechnic of Porto; ICMA$^2$SC2024.}}
+\hspace*{14.5cm}
+
+{
+\vspace*{-1cm}\footnotesize {{\textbf{\large  {\large I}nternational {\large C}onference}}}
+ \textbf{on {\large M}athematical {\large A}nalysis and {\large A}pplications in {\large S}cience and {\large E}ngineering}
+ \hspace{0.1mm} \textbf{\scalebox{1}[2]{\textsf{ICMA$^2$SC'24}}}\\[3mm]
+\vspace*{-0.2cm}\textbf{\scalebox{2}[3]{$\mathbb{ISEP}$}\;Porto-Portugal, June 20 - 22, 2024}\;\;
+
+\textcolor[rgb]{0.25,0.25,0.25}{\rule{17cm}{0.5mm}}
+}
+  \null
+  \vskip .25em%
+  \vspace*{0.15cm}
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE\bf \thetitle \par}%
+    \vskip .5em%
+    {\bf%
+      \lineskip .25em%
+      \begin{tabular}[t]{c}%
+        \theauthor%
+      \end{tabular}\par}%
+    \vskip .25em%
+    {%
+      \lineskip .25em%
+      \begin{tabular}[t]{c}%
+        \address%
+      \end{tabular}\par}%
+      {\ttfamily\lineskip .25em%
+      \begin{tabular}[t]{c}%
+        \email%
+      \end{tabular}\par}
+  \end{center}%
+  \par%
+  \vskip .25em%
+
+  \vspace*{-0.25cm}
+{ \small
+\begin{center}
+  \begin{minipage}[c]{14cm}\noindent {\bf Abstract:\;}\theabstract%\traith
+  \end{minipage}
+\end{center}
+
+\begin{center}
+  \begin{minipage}[c]{14cm}\vspace*{-0.2cm}\noindent {\bf keywords:\;}\keywords%
+  \end{minipage}
+\end{center}
+
+\begin{center}
+  \begin{minipage}[c]{14cm}\vspace*{-0.2cm}\noindent {\bf  MSC2020:\;}\msc%
+  \par\vspace*{0.2cm}%\traith
+  \end{minipage}
+\end{center}
+}
+}

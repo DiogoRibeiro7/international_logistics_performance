@@ -1,0 +1,103 @@
+\section{Principal Component Analysis}
+
+Principal Component Analysis (PCA) is a robust statistical tool utilised extensively in data analysis and machine learning to identify patterns in data and express the data in such a way as to highlight their similarities and differences. Since its establishment, PCA has been widely applied to reduce the dimensionality of large data sets, enhancing interpretability while minimising loss of important information \cite{jolliffe2016principal, monahan2000nonlinear, takane2001constrained, maroco2018, watkins2018}.
+
+PCA provides a comprehensive explanation of the global dataset, retaining the maximum variability in the data and minimising the number of features extracted, which is advantageous for effective analysis.
+
+There are several compelling reasons to consider transforming a dataset into a lower-dimensional space, such as simplifying data manipulation and reducing computational demands \cite{wang2003feature, wu2007feature, correiaICIE}. However, it is critical to do this transformation systematically, as reducing dimensions can result in a loss of information. It is essential that the chosen algorithm retains the valuable PCA could be introduced from different viewpoints, elucidating why it is advantageous to preserve maximal variability in the data \cite{hasan2021review, ivosev2008dimensionality, bro2014principal}.
+
+The mathematical foundation of PCA is based on the linear algebra concepts of eigenvalues and eigenvectors \cite{wold1987principal}. PCA transforms the original variables into a new set of variables, which are linear combinations of the original variables. These new variables, or principal components, are obtained by orthogonal transformation directed along the axes of maximum variance.
+
+The covariance matrix of the initial data is defined as:
+\[
+\Sigma = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \mu)(x_i - \mu)^T
+\]
+
+
+The principal components are derived from the eigenvectors of the covariance matrix of the data, scaled by their respective eigenvalues. The first principal component is the direction along which the variance of the data is maximised.
+
+The eigenvalue equation is given by:
+\[
+\Sigma v = \lambda v,
+\]
+where $\Sigma$ represents the covariance matrix, $v$ denotes an eigenvector matrix, and $\lambda$ is the corresponding eigenvalue vector.
+
+%\textcolor{red}{Só há 1 $V$?}
+
+Dimensionality reduction is achieved by selecting the top $k$ principal components, corresponding to the largest eigenvalues (usually greater than 1), which capture the most significant variance within the dataset. This truncation allows for a lower-dimensional representation of the data, which retains the core characteristics of the original dataset \cite{shlens2014tutorial}.
+
+The data projection can be expressed as:
+\[
+Y = X \cdot V_k,
+\]
+wWhere $X$ is the original data matrix, $V_k$ is the matrix containing the top $k$ eigenvectors, and $Y$ represents the transformed data with reduced dimensions.
+
+The application of PCA is not limited to dimensionality reduction. It also is as a powerful tool for noise reduction, feature extraction, and data visualisation. By simplifying complexity in high-dimensional data, PCA facilitates a clearer understanding of the data's underlying structure \cite{ivosev2008dimensionality}.
+
+\subsection{Applications of PCA}
+
+PCA is extensively utilised in various analytical scenarios requiring the reduction of data dimensionality and the extraction of significant patterns from the data \cite{wang2003feature}. The utility of PCA extends across several key domains:
+\begin{itemize}
+    \item PCA is particularly valuable in scenarios involving datasets with numerous variables. By identifying and eliminating redundant or less important variables, PCA simplifies the dataset while preserving the most crucial information, thus facilitating more efficient further analyses \cite{wu2007feature}.
+    \item For high-dimensional data, PCA provides a mechanism to reduce dimensions to two or three principal components. This reduction allows for the visual representation of complex structures, making the data more comprehensible and easier to interpret \cite{hasan2021review}.
+    \item In datasets characterised by high levels of noise, PCA enhances data quality by focusing on principal components that capture the core variance of the data, which are less influenced by noise \cite{ivosev2008dimensionality}.
+    \item In predictive modelling tasks, PCA is employed to derive new features that potentially offer greater insight and less redundancy than the original set of features\cite{wang2003feature}.
+    \item PCA serves as a powerful exploratory tool, helping to uncover hidden variables and detect unusual patterns within the data, which might not be apparent through traditional analysis methods \cite{wu2007feature}.
+
+\end{itemize}
+
+
+
+
+
+
+
+\subsection{Key Assumptions of PCA}
+PCA serves as an influential statistical method extensively employed to reduce dimensionality in data analysis. Nonetheless, the success of PCA depends on certain assumptions regarding the data it handles. Understanding these assumptions is essential to guarantee that PCA's application yields significant and dependable outcomes \cite{bro2014principal, shlens2014tutorial, wold1987principal, candes2011robust, mckeown1998independent}.
+
+Key Assumptions of PCA are:
+
+\begin{itemize}
+    \item \textbf{Linearity:} PCA assumes that the data components have linear relationships among them. This assumption is fundamental because PCA aims to capture the variance through linear combinations of the original features. It implies that the principal components derived from PCA are linear transformations of the original variables. This assumption also means that PCA may not effectively capture complex nonlinear relationships without transformations or adaptations.
+    
+    \item \textbf{Scale Sensitivity:} The scale of the data matters in PCA because it directly influences the resulting principal components. Variables with larger variances can dominate the outcome, overshadowing the contributions of other variables. Therefore, it is often necessary to standardise or normalise (or re-scaling) data before applying PCA, so each variable contributes equally to the analysis.
+    
+    \item \textbf{Large Variance Implies Importance:} PCA operates under the assumption that directions in which the variance of the data is maximised are the most important. The technique prioritises these directions to identify the principal components. This assumption may not always hold true, especially in cases where high variance is due to outliers or noise in the data.
+    
+    \item \textbf{Orthogonality of Components:} PCA assumes that the principal components are orthogonal, meaning each component is uncorrelated with the others. This orthogonality ensures that the principal components represent independent dimensions of variance, simplifying the interpretation of the data by removing redundant information.
+    
+    \item \textbf{Normality:} While not strictly required, PCA ideally assumes that the data follows a multivariate normal distribution. This assumption helps in maximising the efficiency and interpretability of PCA, particularly when using PCA results for further statistical inference. The normality assumption is imperative for the application of various statistical tests that may be needed to evaluate the results of PCA.
+    
+    \item \textbf{Sample Size:} PCA assumes that there is an adequate sample size to reliably estimate the covariance matrix. A small sample size may lead to over-fitting, where the PCA model captures noise instead of the underlying data structure. Generally, a larger sample size provides a more stable and accurate estimation of covariance, leading to more reliable PCA results.
+\end{itemize}
+
+When applying PCA, it's crucial to assess whether these assumptions hold for the given dataset. Violations of these assumptions can lead to misinterpretations and misleading conclusions. For instance, if the data is not linear, using kernel PCA or another nonlinear method might be more appropriate. If components are not orthogonal due to the presence of multicollinearity, PCA might still reduce dimensionality, but the interpretation of components becomes more complex.
+
+While PCA is a robust and versatile tool in data analysis, careful consideration of its underlying assumptions is essential to utilise its full potential effectively. Ensuring that these assumptions are met or appropriately addressed through pre-processing steps can greatly enhance the insights gained from PCA.
+
+
+\subsection{Validating PCA}
+
+To ensure the effectiveness of PCA in specific contexts, several validation steps are recommended, \cite{bro2014principal, shlens2014tutorial, wold1987principal, candes2011robust, mckeown1998independent}:
+
+\begin{itemize}
+ \item \textbf{Optimal number of principal components to retain:}
+\begin{itemize}  \item \textbf{Scree Plot Analy} -- Initiate the validation by examining, for example, the eigenvalues of the covariance matrix through a scree plot. This plot is crucial for suggest the optimal number of principal components to retain, typically identified by the point where the explained variance ceases to decrease significantly.
+  \item \textbf{Variance Explained:} Quantify the amount of variance each principal component accounts for. The objective is to retain a minimal number of components while capturing a substantial proportion of the data's total variance, with common thresholds ranging from 70\% to 90\%.
+  \item \textbf{Data investigation area} -- Theoretical investigation in the theme of the data, can suggest the more adequate theoretical number of factors.
+\end{itemize}
+  \item \textbf{Loadings Examination:} Analyze the loadings of each principal component to understand the relationships and contributions of the original variables to the components. This analysis can highlight the most significant variables within the dataset.
+  \item \textbf{Cross-Validation:} If PCA is applied within predictive modeling, cross-validation should be performed to compare the efficacy of models using both the original and reduced datasets. This step ensures that the reduction process does not omit critical information.
+  \item \textbf{Reconstruction Error:} Calculate the reconstruction error, which is the discrepancy between the original dataset and its reconstruction from the selected principal components. A minimal reconstruction error indicates effective information retention by the principal components.
+  \item \textbf{Qualitative Evaluation:} Assess the practicality of the PCA-reduced dataset for the intended application. Considerations should include the balance of variable importance, as over-simplification could result in the loss of essential information.
+\end{itemize}
+
+\subsection{Statistical Tests for PCA Suitability}
+
+Prior to executing PCA, it's important to perform statistical tests to determine if the data is appropriate for such analysis:
+
+\begin{itemize}
+    \item \textbf{Bartlett's Test of Sphericity:} This test checks if the correlation matrix significantly deviates from an identity matrix. A significant result implies that the conditions are favorable for PCA.
+    \item \textbf{Kaiser-Meyer-Olkin (KMO) Test:} This test measures the suitability of data for factor analysis, which also reflects on its appropriateness for PCA. A KMO value above 0.6 is considered adequate, with values approaching 1.0 being optimal.
+    \item \textbf{Measure of Sampling Adequacy (MSA):} Within the KMO test, the MSA score is calculated for each variable to assess individual suitability. Values below 0.5 generally suggest that the variable is not suitable for PCA.
+\end{itemize}

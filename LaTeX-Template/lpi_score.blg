@@ -8,6 +8,10 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: sample-base.bib
+Warning--I didn't find a database entry for "arvis2016"
+Warning--I didn't find a database entry for "arvis2018"
+Warning--I didn't find a database entry for "WB"
+Warning--I didn't find a database entry for "lpi_worldbank_2023"
 Warning--I didn't find a database entry for "maroco2018analise"
 Warning--I didn't find a database entry for "carroll1978effect"
 Warning--I didn't find a database entry for "pestana2008analise"
@@ -43,45 +47,45 @@ Warning--empty publisher in maroco2018
 Warning--empty address in maroco2018
 Warning--no number and no volume in shlens2014tutorial
 Warning--page numbers missing in both pages and numpages fields in shlens2014tutorial
-You've used 30 entries,
+You've used 26 entries,
             5981 wiz_defined-function locations,
-            1637 strings with 22695 characters,
-and the built_in function-call counts, 29257 in all, are:
-= -- 4020
-> -- 868
+            1633 strings with 22388 characters,
+and the built_in function-call counts, 25990 in all, are:
+= -- 3697
+> -- 710
 < -- 0
-+ -- 298
-- -- 324
-* -- 1946
-:= -- 2856
-add.period$ -- 152
-call.type$ -- 30
-change.case$ -- 197
-chr.to.int$ -- 28
-cite$ -- 68
-duplicate$ -- 2516
-empty$ -- 1797
-format.name$ -- 394
-if$ -- 7211
-int.to.chr$ -- 4
++ -- 244
+- -- 268
+* -- 1686
+:= -- 2451
+add.period$ -- 131
+call.type$ -- 26
+change.case$ -- 165
+chr.to.int$ -- 26
+cite$ -- 64
+duplicate$ -- 2248
+empty$ -- 1605
+format.name$ -- 332
+if$ -- 6511
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 64
-newline$ -- 280
-num.names$ -- 188
-pop$ -- 960
+missing$ -- 60
+newline$ -- 248
+num.names$ -- 162
+pop$ -- 847
 preamble$ -- 1
-purify$ -- 430
+purify$ -- 370
 quote$ -- 0
-skip$ -- 906
+skip$ -- 806
 stack$ -- 0
-substring$ -- 2059
-swap$ -- 217
+substring$ -- 1872
+swap$ -- 195
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 633
+type$ -- 549
 warning$ -- 26
-while$ -- 183
+while$ -- 163
 width$ -- 0
-write$ -- 600
-(There were 30 warnings)
+write$ -- 524
+(There were 34 warnings)
