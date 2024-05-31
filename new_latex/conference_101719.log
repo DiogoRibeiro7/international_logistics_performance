@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  31 MAY 2024 09:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.13)  31 MAY 2024 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,8 +233,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box55
-)
-No file conference_101719.aux.
+) (conference_101719.aux)
 \openout1 = `conference_101719.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -251,6 +250,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
+
 -- Lines per column: 56 (exact).
 (/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -481,179 +481,35 @@ LaTeX Warning: Citation `lpi_worldbank_2023' on page 4 undefined on input line 2
 LaTeX Warning: Citation `correiaICIE' on page 4 undefined on input line 220.
 
 
-LaTeX Warning: Reference `tab:kmo' on page 4 undefined on input line 224.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:230: Undefined control sequence.
-l.230 \toprule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:232: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.232 \midrule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:239: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.239 \midrule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:241: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.241 \midrule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:243: Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.243 \bottomrule
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `maroco2018analise' on page 4 undefined on input line 262.
+LaTeX Warning: Citation `maroco2018analise' on page 4 undefined on input line 263.
 
 
-LaTeX Warning: Citation `carroll1978effect' on page 4 undefined on input line 268.
-
-
-LaTeX Warning: Reference `tab:loadings' on page 4 undefined on input line 268.
-
-
-LaTeX Warning: Reference `tab:loadings' on page 4 undefined on input line 271.
-
-
-LaTeX Warning: Reference `fig:PCAl' on page 4 undefined on input line 271.
+LaTeX Warning: Citation `carroll1978effect' on page 4 undefined on input line 269.
 
 [4]
-<Loadings.png, id=25, 553.851pt x 268.713pt>
-File: Loadings.png Graphic file (type png)
-<use Loadings.png>
-Package pdftex.def Info: Loadings.png  used on input line 275.
+<Loadings.jpg, id=25, 553.851pt x 268.713pt>
+File: Loadings.jpg Graphic file (type jpg)
+<use Loadings.jpg>
+Package pdftex.def Info: Loadings.jpg  used on input line 276.
 (pdftex.def)             Requested size: 361.19843pt x 175.2436pt.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:296: Undefined control sequence.
-l.296 \toprule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:298: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.298 \midrule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:304: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.304 ...6^^I&^^I0.966^^I&^^I0.967^^I\\^^I\midrule
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:305: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.305 ...4.3^^I&^^I92.3^^I&^^I90.8^^I\\^^I\midrule
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:306: Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.306 ...I&^^I0.982^^I&^^I0.978^^I\\^^I\bottomrule
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `pestana2008analise' on page 5 undefined on input line 310.
 
 
 LaTeX Warning: Citation `pestana2008analise' on page 5 undefined on input line 312.
 
 
-LaTeX Warning: Citation `jarmund2022alasca' on page 5 undefined on input line 324.
+LaTeX Warning: Citation `pestana2008analise' on page 5 undefined on input line 314.
 
 
-LaTeX Warning: Citation `ranalli2017model' on page 5 undefined on input line 324.
+LaTeX Warning: Citation `jarmund2022alasca' on page 5 undefined on input line 326.
 
 
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:334: LaTeX Error: Environment acks undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.334 \begin{acks}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/diogoribeiro/work_code/personal/international_logistics_performance/new_latex/conference_101719.tex:336: LaTeX Error: \begin{document} ended by \end{acks}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 \end{acks}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Citation `ranalli2017model' on page 5 undefined on input line 326.
 
 (conference_101719.bbl)
 
@@ -667,7 +523,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] [6 <./Loadings.png>] (conference_101719.aux)
+[5] [6 <./Loadings.jpg>] (conference_101719.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -676,22 +532,19 @@ L3 programming layer <2023-10-10>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4262 strings out of 474824
- 68630 string characters out of 5739209
- 1942040 words of memory out of 5000000
- 26172 multiletter control sequences out of 15000+600000
+ 4259 strings out of 474824
+ 68708 string characters out of 5739209
+ 1943040 words of memory out of 5000000
+ 26167 multiletter control sequences out of 15000+600000
  602178 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1122b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (6 pages, 264313 bytes).
+Output written on conference_101719.pdf (6 pages, 432470 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
