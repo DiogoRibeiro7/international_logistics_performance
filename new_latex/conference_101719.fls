@@ -91,11 +91,10 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./conference_101719.aux
-INPUT ./conference_101719.aux
-INPUT conference_101719.aux
 OUTPUT conference_101719.aux
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -105,108 +104,3 @@ INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmrc7t.tfm
-OUTPUT conference_101719.pdf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmrc7t.tfm
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./Loadings.jpg
-INPUT ./conference_101719.bbl
-INPUT ./conference_101719.bbl
-INPUT conference_101719.bbl
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT conference_101719.aux
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb
-INPUT /Users/diogoribeiro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb
