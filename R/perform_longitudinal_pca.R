@@ -1,3 +1,15 @@
+# Import the full dataset
+library(readxl)
+
+setwd("/Users/diogoribeiro/work_code/personal/international_logistics_performance")
+
+dados <- read_excel("data_transformed.xlsx")
+
+print(colnames(dados))
+str(dados)
+
+
+
 perform_longitudinal_pca <- function(data, id_col = "Economy", year_col = "Year") {
   library(dplyr)
   library(tidyr)
